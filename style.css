@@ -1,0 +1,67 @@
+body {
+    font-family: Arial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; /* Assuming you want the height to be 100% of the viewport */
+    margin: 0;
+    background-image: url('Train booking system.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+@keyframes gradientBG {
+    0% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #0544c4;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(233, 229, 229, 0.1);
+}
+
+label {
+    display: block;
+    margin: 0px 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #8f0606;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ff0411;
+    color: rgba(0, 0, 0, 0.681);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1173dc;
+}
+div{
+    color: black;
+}
